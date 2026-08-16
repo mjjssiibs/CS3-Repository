@@ -15,7 +15,7 @@ Rooster = [1909, 1921, 1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017, 2029]
 Dog = [1910, 1922, 1934, 1946, 1958, 1970, 1982, 1994, 2006, 2018, 2030]
 Pig = [1911, 1923, 1935, 1947, 1959, 1971, 1983, 1995, 2007, 2019, 2031 ]
 
-birth_year = int(input("Enter your year of birth (Past 1900): "))
+birth_year = int(input("Please enter your year of birth (Past 1900): "))
 if birth_year in Rat:
     print("Your Chinese Zodiac Sign is Rat, or 鼠 / Shǔ in Chinese!")
     exit()
